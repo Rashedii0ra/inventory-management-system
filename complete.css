@@ -1,0 +1,110 @@
+#headingss{
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: center;
+}
+#headingsss{
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 350px;    
+}
+
+
+#addbtn{
+    font-family: 'Lucida Sans';
+    background-color: rgb(91, 222, 255) ;
+    color: black;
+    width: 450px;
+    height: 40px;
+    border-color: black;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+    margin-left: 225px;
+}
+
+#addbtn:hover{
+    background-color: rgb(16, 108, 131);
+    cursor: pointer;
+}
+
+.inventoryfields{
+    padding-top:15px;
+    padding-left: 450px;
+    
+}
+
+.orderfields{
+    padding-top:15px;
+    padding-left: 450px;
+}
+
+.customerfields{
+    padding-top:15px;
+    padding-left: 450px;
+}
+
+.supplierfields{
+    padding-top:15px;
+    padding-left: 450px;
+}
+
+#price{
+    width: 900px;
+    height: 40px;
+}
+
+#title{
+    width: 900px;
+    height: 40px;
+}
+
+#quantity{
+    width: 900px;
+    height: 40px;
+}
+
+#total{
+    width: 900px;
+    height: 40px;
+}
+
+#c_id{
+    width: 900px;
+    height: 40px;
+}
+
+#c_name{
+    width: 900px;
+    height: 40px;
+}
+
+#c_add{
+    width: 900px;
+    height: 40px;
+}
+
+#c_phoneno{
+    width: 900px;
+    height: 40px;
+}
+
+#sup_name{
+    width: 900px;
+    height: 40px;
+}
+
+#sup_add{
+    width: 900px;
+    height: 40px;
+}
+
+#sup_phoneno{
+    width: 900px;
+    height: 40px;
+}
+
+#sup_item{
+    width: 900px;
+    height: 40px;
+}

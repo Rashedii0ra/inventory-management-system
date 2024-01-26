@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="stylesignup.css">
+</head>
+<body>
+    <div class="classsignupcontainer">
+        <h1>SignUp</h1>
+
+        <form action="process-signup.php" method="post">
+
+            <form action="process-signup.php" method="post" id="signup" novalidate>
+                
+                <div>
+                    <label for="username">username</label>
+                    <input type="username" id="username" name="username">
+                </div>
+                
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                
+                
+                <button class = 'Register'>Sign up</button>
+            </form>
+            
+        
+        <br>
+        <p>Back to login Page? <a href="login.php">LogIn</a></p>
+       
+    </div>
+</body>
+</html>

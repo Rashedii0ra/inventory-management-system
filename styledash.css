@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    height: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+    background-color: teal;
+}
+
+#logo{
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.hello{
+    margin-right: 180px;
+    text-decoration: underline solid 2px black;
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.navbar a{
+    margin-right: 180px;
+    text-decoration: underline solid 2px black;
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#footer{
+    background-color: teal;
+    color: white;
+    text-align:center;
+}
+
+.content{
+    height: 900px;
+}
+
+#logout:hover{
+    color:whitesmoke;
+    text-decoration: underline solid 2px whitesmoke;
+}
+
+a:hover{
+    color:whitesmoke !important;
+    text-decoration: underline solid 2px whitesmoke;
+    cursor: pointer;
+}
